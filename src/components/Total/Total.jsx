@@ -5,16 +5,18 @@ export const Total = ({ grandTotal, subjectNumber, getPercentage }) => {
   const [percentage, setPercentage] = useState(null);
   useEffect(() => {
     setPercentage(((grandTotal / (100 * subjectNumber)) * 100).toFixed(1));
+    
   }, [grandTotal, subjectNumber]);
   useEffect(() => {
     getPercentage(percentage);
   }, [getPercentage, percentage]);
+  console.log(percentage)
   return (
     <>
       <Row >
         <Col className="col-1 border-bottom border-top border-dark"></Col>
         <Col className="col-3 border-end border-bottom border-top border-dark fw-bold text-uppercase text-nowrap ">
-          grand total
+        {isNaN(grandTotal)?{grandTotal}:""}
         </Col>
         <Col className="col-6 border-start border-top border-dark">
           <Row className="text-center">
@@ -36,7 +38,7 @@ export const Total = ({ grandTotal, subjectNumber, getPercentage }) => {
         <Col className="col-6">
           <Row className="text-center">
             <Col className="col-8  border-top border-bottom border-dark border-start"></Col>
-            <Col className="col-4 border-end border-top border-bottom border-dark fw-bold">{percentage}</Col>
+            <Col className="col-4 border-end border-top border-bottom border-dark fw-bold"> {Number.isNaN(percentage)?{percentage}:""}</Col>
           </Row>
         </Col>
         <Col className="col-2 border-bottom border-top border-dark border-end border-start"></Col>
