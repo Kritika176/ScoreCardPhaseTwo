@@ -1,0 +1,29 @@
+.italicFont {
+  font-style: cursive;
+  font-family: "Brush Script MT";
+}
+
+.fontSize {
+  font-size: 25px;
+}
+
+.mainBox {
+  position: relative;
+}
+
+.formOne {
+  width:30%;
+  z-index: 1000;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.cross{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 40px;
+}

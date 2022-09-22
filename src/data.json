@@ -1,0 +1,154 @@
+{
+  "part_one": {
+    "name": "Scholastic Areas",
+
+    "subjects": [
+      {
+        "id": 0,
+        "name": "English",
+        "FA": 20,
+        "Oral1": 10,
+        "SA": 30,
+        "Oral2": 5
+      },
+      {
+        "id": 1,
+        "name": "Hindi",
+        "FA": 20,
+        "Oral1": 15,
+        "SA": 20,
+        "Oral2": 7
+      },
+      {
+        "id": 2,
+        "name": "Sanskrit/Urdu",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+      {
+        "id": 3,
+        "name": "Math",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+      {
+        "id": 4,
+        "name": "EVS",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+      {
+        "id": 5,
+        "name": "Social Study",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+      {
+        "id": 6,
+        "name": "Computer",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+
+      {
+        "id": 7,
+        "name": "Moral",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+
+      {
+        "id": 8,
+        "name": "GK",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+      {
+        "id": 9,
+        "name": "Communication",
+        "FA": 30,
+        "Oral1": 10,
+        "SA": 29,
+        "Oral2": 9
+      },
+      {
+        "id": 10,
+        "name": "Drawing",
+        "FA": "",
+        "Oral1": "",
+        "SA": "",
+        "Oral2": "",
+        "grade": "A"
+      }
+    ]
+  },
+  "part_two": {
+    "name": "Co-Scholastic Areas",
+    "subjects": [
+      {
+        "name": "Development and Maturity",
+        "grade": "A"
+      },
+      {
+        "name": "Responsibilty",
+        "grade": "B"
+      },
+      {
+        "name": "Self Confidence",
+        "grade": "A"
+      },
+      {
+        "name": "Music",
+        "grade": "B"
+      },
+      {
+        "name": "Participation in Group Work",
+        "grade": "A+"
+      },
+      {
+        "name": "Neatness",
+        "grade": "A+"
+      },
+      {
+        "name": "Discipline",
+        "grade": "A+"
+      },
+      {
+        "name": "Hand Work",
+        "grade": "B"
+      },
+      {
+        "name": "Attitude towards home-work",
+        "grade": "A"
+      },
+      {
+        "name": "Craft",
+        "grade": "A"
+      },
+      {
+        "name": "Regularity & Punctuality",
+        "grade": "A"
+      }
+    ]
+  },
+  "part_three": {
+    "name": "Attendance",
+    "type": "Term-I",
+    "working_days": 83,
+    "days_present": 76
+  }
+}

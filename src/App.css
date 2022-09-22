@@ -1,0 +1,11 @@
+.buttonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media print {
+  #print_hide {
+    display: none !important;
+  }
+}

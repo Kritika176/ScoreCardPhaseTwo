@@ -1,0 +1,35 @@
+.formOneDiv {
+  position: relative;
+   width: 300px;
+}
+.submitContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.feildDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.inputStyle {
+  border-radius: 3px;
+  border: 0;
+  outline: none;
+  width: 100%;
+  height: 35px;
+}
+
+.error {
+  font-size: 14px;
+  color: red;
+}

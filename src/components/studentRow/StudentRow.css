@@ -1,0 +1,11 @@
+@media only screen and (max-width: 576px) {
+  .rowPadding {
+    padding: 0px;
+  }
+}
+
+@media print {
+  #print_hide {
+    display: none;
+  }
+}

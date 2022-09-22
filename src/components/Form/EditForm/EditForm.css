@@ -1,0 +1,6 @@
+.cross{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right:3px
+}
