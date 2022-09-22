@@ -21,8 +21,8 @@ export const Total = ({ grandTotal, subjectNumber, getPercentage }) => {
         <Col className="col-6 border-start border-top border-dark">
           <Row className="text-center">
             <Col className="col-8 border-bottom  border-dark"></Col>
-            <Col className="col-4 border-end border-bottom border-dark fw-bold">
-              {grandTotal}
+            <Col className="col-4 border-end  border-dark fw-bold">
+            {Number.isNaN(grandTotal)?{grandTotal}:""}
             </Col>
             
           </Row>

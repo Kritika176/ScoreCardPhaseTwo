@@ -3,6 +3,7 @@ import "./App.css";
 import Main from "./Main/Main.jsx";
 import { useReactToPrint } from "react-to-print";
 import html2pdf from "html2pdf.js"
+import {ScoreCard} from "../src/components/ScoreCard/ScoreCard";
 function App() {
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
@@ -23,12 +24,9 @@ function App() {
   };
   return (
     <>
-    <div className="d-flex justify-content-center justify-content-center"><button onClick={handlePrint}>Print</button></div>
-      
-      <Main ref={componentRef} />
-      <div className="d-flex justify-content-center justify-content-center">
-      <button onClick={generatePDF}>Download</button>
-      </div>
+    <div>
+       <ScoreCard/>
+    </div>
     </>
   );
 }
