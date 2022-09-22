@@ -10,7 +10,7 @@ function App() {
   });
   const generatePDF = () => {
     const source = document.getElementById("mainCon");
-    const fileName = "mrinal.pdf";
+    const fileName = "kritika.pdf";
     var opt = {
       margin: 0.2,
       filename: fileName,
@@ -27,7 +27,7 @@ function App() {
       
       <Main ref={componentRef} />
       <div className="d-flex justify-content-center justify-content-center">
-      <button onClick={generatePDF}>download</button>
+      <button onClick={generatePDF}>Download</button>
       </div>
     </>
   );
